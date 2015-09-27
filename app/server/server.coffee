@@ -1,12 +1,12 @@
-# process.env.MAIL_URL="smtp://getkeepapp%40gmail.com:appkeepget@smtp.gmail.com:465/";
-# PrettyEmail.options =
-#   from: 'getkeepapp@gmail.com'
-#   companyName: 'Keep'
-#   companyUrl: 'getkeep.meteor.com'
-#   companyAddress: '123 Street, ZipCode, City, Country'
-#   companyTelephone: '+233246325632'
-#   companyEmail: 'getkeepapp@gmail.com'
-#   siteName: 'Keep'
+process.env.MAIL_URL="smtp://soukershop%40gmail.com:soukersouk@smtp.gmail.com:465/";
+PrettyEmail.options =
+  from: 'soukershop@gmail.com'
+  companyName: 'Keep'
+  companyUrl: 'souker.meteor.com'
+  companyTelephone: '+233246325632'
+  companyEmail: 'soukershop@gmail.com'
+  siteName: 'soukershop'
 
-# PrettyEmail.style =
-#   fontFamily: 'Lato'
+PrettyEmail.style =
+  fontFamily: 'Lato'
+
