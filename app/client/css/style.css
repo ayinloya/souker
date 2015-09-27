@@ -1,0 +1,119 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ nav ul a,
+ nav .brand-logo {
+  color: #444;
+}
+
+
+.subscribtion_form input:not(.btn):not(.btn-large){
+  background: white !important;
+  border: 1px solid #eee !important;
+  border-radius: 2px;
+  font-size: 1.6rem;
+  color: #444;
+  padding: 5px 0 5px 10px;
+}
+
+/*colors*/
+.teal.lighten-1{
+  background-color: #16a085 !important;
+}
+.btn-submit{
+  background-color: orange;
+}
+
+.btn-large{
+  height: 58px;
+}
+
+.btn-subscribe-li{
+  background-color: #FFA500;
+  top: 0;
+}
+/*line-height: 4.1;*/
+
+/*img.idea {
+  width: 512px;
+  height: 256px;
+  }*/
+
+  nav .brand-logo {
+    padding: 12px;
+  }
+  p {
+    line-height: 2rem;
+  }
+
+  .button-collapse {
+    color: #16a085;
+  }
+  .parallax:after{
+   content: "";
+   background: url(http://subtlepatterns.com/patterns/greyzz_pattern.png) repeat;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   position: absolute;
+   z-index: -1; 
+ }
+ .parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: #26a69a;
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  .parallax-container{
+    min-height: 487px ;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .btn-large{
+    height: 56px;
+  }
+}
+@media only screen and (min-width : 601px) {
+  .btn-submit{
+    position: relative;
+  }
+}
+
+@media only screen and (max-width : 796px) {
+  .parallax-container{
+    min-height: 500px;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
