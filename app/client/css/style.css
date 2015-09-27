@@ -11,6 +11,9 @@
   color: #444;
 }
 
+body {
+  background: white !important;
+}
 
 .subscribtion_form input:not(.btn):not(.btn-large){
   background: white !important;
@@ -56,7 +59,7 @@
   }
   .parallax:after{
    content: "";
-   background: url(http://subtlepatterns.com/patterns/greyzz_pattern.png) repeat;
+   background: url(images/greyzz_pattern.png) repeat;
    top: 0;
    left: 0;
    bottom: 0;
